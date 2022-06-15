@@ -1,0 +1,35 @@
+﻿/**{
+	font-family:"SimHei";
+}
+*/
+
+MarkTableWidget
+{
+	border:none;
+	background:#252525;
+	border: 1px solid #D9D9D9;
+	margin-left:8px;
+	margin-bottom:12px;
+	margin-right:8px;
+	gridline-color:#D9D9D9;
+	color:#FFFFFF;
+	qproperty-selectColor:rgba(0,0,255,1);
+	qproperty-normalColor:rgba(0,0,0,0);
+}
+MarkTableWidget::item {
+        border: none;
+		background:transparent;
+}
+MarkTableWidget::item:hover, TableWidgetEx::item:selected{
+        border: none;
+		background:transparent;
+}
+
+TableItemWidget
+{
+	border:none;
+	qproperty-hoverColor:rgb(0,0,255);
+	qproperty-normalColor:rgba(0,0,0,0);
+	qproperty-textNormalColor:rgb(0, 255, 0);
+	qproperty-noDataColor:rgb(96, 96, 96);
+}
